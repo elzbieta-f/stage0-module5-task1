@@ -130,7 +130,7 @@ public class ArrayTasks {
 
         //sorting outer array
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
+            for (int j = i; j < arr.length; j++) {
                 if (arr[j].length < arr[i].length) {
                     int[] tempj = new int[arr[j].length];
                     int[] tempi = new int[arr[i].length];
